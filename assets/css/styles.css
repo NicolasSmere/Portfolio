@@ -1,6 +1,6 @@
 .user
 {
-    padding-left: 2ex;
+    padding: 1em;
 }
 
 .fa-brands.fa-square-instagram.fa-2x:hover,
@@ -21,14 +21,20 @@
     color: rgb(255, 255, 255);
 }
 
+
+
 .texto_redes,
 .texto_login
 {
     color: rgb(255, 255, 255);
 }
 
-nav.navbar{
+.nav.navbar{
     z-index: 9998;
+}
+
+.nav-link{
+  font-size: 0.5em
 }
 
 body{
@@ -119,6 +125,8 @@ section{
   margin-bottom: 0;
 }
 
+
+
 /* Fin About */ 
 
 /* Banner */ 
@@ -126,9 +134,9 @@ section{
 #banner {
   width: 100%;
   height: 60vh;
-  background: url(Banner.png) top center;
-  background-size: cover;
+  background: url(bannerblanco.jpg) top center;
 }
+
 
 #banner .banner-container {
   position: relative;
@@ -265,5 +273,3 @@ section{
 }
 
 /* Fin seccion experiencialaboral */
-
-
